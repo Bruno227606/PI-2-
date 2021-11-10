@@ -2,7 +2,7 @@ O projeto a seguir, foi definido para um cliente específico que além de todo c
 Devido a um procedimento cirúrgico o cliente em questão perdeu o olfato, e em função disso, um vazamento de gás pode ser fatal. 
 Com a visão muito reduzida, apenas displays e luzes indicativas não são suficientes, o bloqueio de funções que podem ser perigosas, nesse caso, se faz necessário.
 Um sensor de temperatura, não permite que o quarto ultrapasse a temperatura de 30 graus Célsius. Ao atingir a temperatura de 25 graus Célsius, o ar condicionado é acionado.
-Quando houver aproximação de alguém, um sensor aciona uma camera de vídeo para facilitar a identifação de quem se aproxima.
+Quando houver aproximação de alguém a porta principal, um sensor aciona uma camera de vídeo para facilitar a identifação de quem se aproxima.
 Se houver vazamento de gás ou material combustível, um sensor bloqueia o acionamento de todos equipamentos elétricos e aciona uma sirene ao lado externo do imóvel.
 Um sensor ultrassonico que mede aproximação, abre a porta do galpão através de um servo motor, ao se aproximar com uma Tobata ou Trator por exemplo.
 A chuva é utilizada para irrigação, um sensor mede o nível do reservatório e mostra em um display. Se necessário, pode se optar pela água comercial.
