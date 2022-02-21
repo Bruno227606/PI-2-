@@ -26,6 +26,9 @@ Utilizaremos os seguintes componentes eletrônicos para confecção do projeto p
 
 Através da maquete eletrônica planejamos as conexões entre os materiais na etapa da implementação. A seguir, será apresentada uma breve explicação de cada componente que compõe o projeto e o motivo pelo qual eles foram selecionados:
 
+<img src = "Maquete eletrônica.PNG" alt = "Maquete eletrônica" width = "1000" />
+
+
 * Arduino Mega 2560: É o responsável por controlar todo o sistema e por essa razão todos os demais componentes são conectados aos seus pinos de entrada e saída. O Arduino Mega 2560 foi selecionado por possuir um maior número de portas e mais memória, se comparado ao Arduino Uno.
 
 * Servo TowerPro MG995: É controlado por meio de um pino de saída digital PWM e será responsável por controlar o portão da casa. Esse modelo é ideal para utilização com arduino, pois é alimentado com 5V, que é a mesma tensão que o arduino fornece, além de seu tamanho reduzido que é uma vantagem para essa aplicação.
@@ -47,3 +50,14 @@ Através da maquete eletrônica planejamos as conexões entre os materiais na et
  * Display LCD 16x2 I2C: O display LCD necsessita de diversos pinos para se conectar ao Arduino, porém com módulo I2C integrado essa conexão é feita utilizando apenas quatro pinos. Dois pinos são utilizados para alimentação e os outros dois para comunicação, no caso do Arduino Mega os pinos I2C a serem utilizados são o 20 (SDA) e 21 (SCL). O display LCD será resposável por exibir mensagens sobre o funcionamento do sistema.  
 
 * LEDs: Os LEDs serão controlados por pinos de saídas digitais e necessitam de resistores para que tenham tensão de 3V e corrente menor que 5mA.
+
+Abaixo podemos observar um protótipo do projeto físico:
+
+
+<img src = "casa2.PNG" alt = "casa" width = "750" />
+
+
+<img src = "Galpao.PNG" alt = "Galpao" width = "750" />
+
+
+<img src = "Legendas.PNG" alt = "Legendas" width = "750" />
