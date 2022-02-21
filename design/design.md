@@ -23,9 +23,6 @@ Utilizaremos os seguintes componentes eletrônicos para confecção do projeto p
 -Buzzer passivo
 
 -Display LCD 16×2 I2C Backlight Azul
-## Maquete Eletrônica
-
-![Maquete_Eletrônica](./Imagens/maquete_eletronica.png)
 
 Através da maquete eletrônica planejamos as conexões entre os materiais na etapa da implementação. A seguir, será apresentada uma breve explicação de cada componente que compõe o projeto e o motivo pelo qual eles foram selecionados:
 
