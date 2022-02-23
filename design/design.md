@@ -29,27 +29,25 @@ Através da maquete eletrônica planejamos as conexões entre os materiais na et
 <img src = "Maquete eletrônica.PNG" alt = "Maquete eletrônica" width = "1000" />
 
 
-* Arduino Mega 2560: É o responsável por controlar todo o sistema e por essa razão todos os demais componentes são conectados aos seus pinos de entrada e saída. O Arduino Mega 2560 foi selecionado por possuir um maior número de portas e mais memória, se comparado ao Arduino Uno.
+* Arduino Mega 2560: Irá controlar e receber as informações nos seus pinos de entrada e saída. O Arduino Mega 2560 possuí a configuração ideal para o projeto, possuí maior quantidade de memória, se comparado ao Arduino Uno.
 
-* Servo TowerPro MG995: É controlado por meio de um pino de saída digital PWM e será responsável por controlar o portão da casa. Esse modelo é ideal para utilização com arduino, pois é alimentado com 5V, que é a mesma tensão que o arduino fornece, além de seu tamanho reduzido que é uma vantagem para essa aplicação.
+* Servo TowerPro MG995: É controlado por um pino de saída digital PWM e será o responsável pela abertura do galpão. Modelo alimentado com 5V, que é a mesma tensão que o arduino fornece, além de seu tamanho reduzido geram facilidades para essa aplicação.
 
-* HC-sr501: Esse é o modelo do sensor de presença que será utilizado, ele é alimentado com 5V e é conectado a um pino de entrada digital. Quando detectado algum movimento ele enviará nível lógico alto para o arduíno.
+* HC-sr501: Esse é o modelo do sensor de presença que será utilizado, alimentado com 5V e é conectado a um pino de entrada digital. Quando detectado algum movimento ele enviará nível lógico alto para o arduíno.
 
-* MQ2: Sensor de gás selecionado pois ele detecta GLP(gás de cozinha) e fumaça. Ele pode ser conectado a um pino de entrada digital que receberá nível lógico alto quando for detectado gás e um pino de entrada analógica que receberá a concentração de gás verificada pelo sensor.
+* MQ2: Sensor de gás que identifica gás de cozinha. Conectado a um pino de entrada digital, que receberá nível lógico alto quando for detectado gás e um pino de entrada analógica que receberá a concentração de gás verificada pelo sensor.
 
 * DHT11: Sensor de temperatura e umidade alimentado com 5V, ele envia os dados registrados por um pino de entrada analógica.
 
-* LDR: É um sensor de luminosidade e sua resistência varia de acordo com a intensidade de luz, desse modo é necessário um resistor para que o pino de entrada analógica do arduino possa identificar a variação de resistência no LDR por meio da tensão sobre ele. 
+* Módulo Buzzer Passivo 5V : Controlado por um pino de saída digital PWM, emitirá sons para alertar o usuário, nesse caso, sobre um vazamento de gás.
 
-* Módulo Buzzer Passivo 5V : Controlado por um pino de saída digital PWM, emitirá diferentes sons para alertar o usuário do sistema.
-
-* Módulo relé 5V: O relé será acionado por meio de um pino de saída digital e será utilizado para controlar o cooler. O uso dele faz-se necessário, pois a corrente dos pinos de saída não seriam suficientes para liga-lo, além de ser mais seguro devido ao relé isolar o cooler do microcontrolador.
+* Módulo relé 5V: O relé será acionado por meio de um pino de saída digital controlado pelo sensor de temperatura, que ligará o ar condicionado, nesse caso, representado por um cooler. Seu uso é necessário pois a corrente fornecida para o cooler, execde os limites do Arduino.
 
 * Cooler 5V: Liga e desliga por meio do relé, alimentado com 5V.
 
- * Display LCD 16x2 I2C: O display LCD necsessita de diversos pinos para se conectar ao Arduino, porém com módulo I2C integrado essa conexão é feita utilizando apenas quatro pinos. Dois pinos são utilizados para alimentação e os outros dois para comunicação, no caso do Arduino Mega os pinos I2C a serem utilizados são o 20 (SDA) e 21 (SCL). O display LCD será resposável por exibir mensagens sobre o funcionamento do sistema.  
+* Display LCD 16x2 I2C: O display LCD com módulo I2C integrado, faz a conexão utilizando apenas quatro pinos. Dois para alimentação e os outros dois para comunicação. O display LCD será resposável por exibir o volume em litros da água da chuva armazenada.
 
-* LEDs: Os LEDs serão controlados por pinos de saídas digitais e necessitam de resistores para que tenham tensão de 3V e corrente menor que 5mA.
+* Módulo sensor de nível de água: Analogicamente irá informar ao Arduino o volume de água no reservatório de água da chuva, que mostrará no Display a quantidade em litros.   
 
 Abaixo podemos observar um protótipo do projeto físico:
 
