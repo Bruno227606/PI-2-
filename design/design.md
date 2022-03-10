@@ -26,7 +26,7 @@ Utilizaremos os seguintes componentes eletrônicos para confecção do projeto p
 
 Através da maquete eletrônica planejamos as conexões entre os materiais na etapa da implementação. A seguir, será apresentada uma breve explicação de cada componente que compõe o projeto e o motivo pelo qual eles foram selecionados:
 
-<img src = "Maquete eletrônica.PNG" alt = "Maquete eletrônica" width = "1000" />
+<img src = "Maquete eletrônica final.PNG" alt = "Maquete eletrônica final" width = "1000" />
 
 
 * Arduino Mega 2560: Irá controlar e receber as informações nos seus pinos de entrada e saída. O Arduino Mega 2560 possuí a configuração ideal para o projeto, possuí maior quantidade de memória, se comparado ao Arduino Uno.
