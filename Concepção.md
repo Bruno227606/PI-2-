@@ -4,7 +4,6 @@
 ## Objetivo
  - Um sensor de presença e um de temperatura e umidade, controlam o ar condicionado. 
  - Quando houver a entrada do cliente pela porta principal o sensor de presença identifica a leitura da temperetura e umidade acionando ou não o ar condicionado.
- - Se houver vazamento de gás ou material combustível, um sensor aciona uma sirene ao lado externo do imóvel.
- - Lâmpadas de emergência, sempre entram em funcionamento quando há queda de energia elétrica.
- - Um sensor ultrassonico que mede aproximação, abre a porta do galpão através de um servo motor, ao se aproximar com uma Tobata ou Trator por exemplo.
- - A chuva é utilizada para irrigação, um sensor mede o nível do reservatório e mostra em um display. Se necessário, pode se optar pela água comercial.
+ - Se houver vazamento de gás ou material combustível, um sensor aciona uma sirene.
+ - Um sensor ultrassonico que mede aproximação, abre a porta do galpão através de um servo motor.
+ - Um sensor mede o nível do reservatório de água da chuva e mostra em um display. Quando o reservatótio estiver vazio, uma luz indica o uso da água comercial.
