@@ -14,8 +14,6 @@ Utilizaremos os seguintes componentes eletrônicos para confecção do projeto p
 
 -Módulo Sensor de Umidade/Nível Água Chuva
 
--Módulo Relé 5 V e um Canal
-
 -Sensor ultrasônico HC-SR04
 
 -Módulo Matriz de LED 8×8 com MAX7219
@@ -23,6 +21,8 @@ Utilizaremos os seguintes componentes eletrônicos para confecção do projeto p
 -Buzzer passivo
 
 -Display LCD 16×2 I2C Backlight Azul
+
+-LED com resistor
 
 Através da maquete eletrônica planejamos as conexões entre os materiais na etapa da implementação. A seguir, será apresentada uma breve explicação de cada componente que compõe o projeto e o motivo pelo qual eles foram selecionados:
 
@@ -40,10 +40,6 @@ Através da maquete eletrônica planejamos as conexões entre os materiais na et
 * DHT11: Sensor de temperatura e umidade alimentado com 5V, ele envia os dados registrados por um pino de entrada analógica.
 
 * Módulo Buzzer Passivo 5V : Controlado por um pino de saída digital PWM, emitirá sons para alertar o usuário, nesse caso, sobre um vazamento de gás.
-
-* Módulo relé 5V: O relé será acionado por meio de um pino de saída digital controlado pelo sensor de temperatura, que ligará o ar condicionado, nesse caso, representado por um cooler. Seu uso é necessário pois a corrente fornecida para o cooler, execde os limites do Arduino.
-
-* Cooler 5V: Liga e desliga por meio do relé, alimentado com 5V.
 
 * Display LCD 16x2 I2C: O display LCD com módulo I2C integrado, faz a conexão utilizando apenas quatro pinos. Dois para alimentação e os outros dois para comunicação. O display LCD será resposável por exibir o volume em litros da água da chuva armazenada.
 
