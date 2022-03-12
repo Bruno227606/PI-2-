@@ -370,5 +370,5 @@ void loop() {
 }
 
 ```
-
+Na imagem abaixo podemos observar a maquete já implementada com os componentes eletrônicos em funcionamento, na aba operação um vídeo explica o funcionamento do projeto.
 
