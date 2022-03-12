@@ -372,4 +372,4 @@ void loop() {
 ```
 Na imagem abaixo podemos observar a maquete já implementada com os componentes eletrônicos em funcionamento, na aba operação um vídeo explica o funcionamento do projeto.
 
-<img src = "casa2.PNG" alt = "casa" width = "750" />
+<img src = "Maquete pronta.PNG" alt = "Maquete pronta" width = "750" />
